@@ -1,0 +1,88 @@
+﻿aside{
+    max-height: 100%;
+    text-align: center;
+    grid-area: side;
+    background-color: darkgrey;
+}
+
+.grid {
+    height: 100%;
+    grid-gap: 0.5em;
+    display: grid;
+    grid-template-areas: 
+        'nav nav nav' 
+        'main main ads' 
+        'main main ads'
+        'footer footer footer'; 
+}
+
+nav {
+    text-align: center;
+    grid-area: nav;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    width: 100%;
+    font-size: 1em;
+    max-height: 8vh;
+}
+
+main {
+    width: auto;
+    text-align: center;
+    grid-area: main;
+    
+}
+
+.ads {
+    border: dashed;
+    text-align: center;
+    grid-area: ads;
+}
+
+footer {
+    text-align: center;
+    position: static;
+    width: 100%;
+    grid-area: footer;
+    height: 5%;
+    background: grey;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+   display:grid;
+}
+
+p {
+
+    font-size: 15px;
+    line-height: 1.7;
+    visibility: hidden;
+    font-weight: 500;
+    letter-spacing: -0.6px;
+    font-family: Montserrat;
+    word-spacing: -0.05px;
+
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: sans-serif; 
+    color: black;
+    visibility: visible;
+    font-weight: 400;
+    letter-spacing: -0.05px;
+    word-spacing: 0.35px;
+}
+
+.red-button{
+    background-color: #f34f4f;
+    border: double;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lexend Deca', sans-serif;
+}
