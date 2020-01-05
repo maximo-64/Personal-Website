@@ -38,10 +38,10 @@ li{
     grid-gap: 0.5em;
     display: grid;
     grid-template-areas: 
-        'nav nav nav' 
-        'main main ads' 
-        'main main ads'
-        'footer footer footer'; 
+        'nav nav nav nav nav' 
+        'main main main main ads' 
+        'main main main main ads'
+        'footer footer footer footer footer'; 
 }
 
 nav {
