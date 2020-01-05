@@ -6,9 +6,8 @@ li, a, button{
 header{
   font-family: sans-serif;
   font: bolder;
-  color: white;
   display: flex;
-  background-color: grey;
+  border:2px solid darkgrey;
   justify-content: space-between;
   padding: 1%;
 }
@@ -18,6 +17,7 @@ header{
   cursor: pointer;
   width: 5%;
   height:5%;
+  border: 2px solid darkgrey;
 }
 
 li{
@@ -34,14 +34,13 @@ li{
 }*/
 
 .grid {
-    height: 100%;
     grid-gap: 0.5em;
     display: grid;
     grid-template-areas: 
-        'nav nav nav nav nav' 
-        'main main main main ads' 
-        'main main main main ads'
-        'footer footer footer footer footer'; 
+        'nav nav' 
+        'main ads' 
+        'main ads'
+        'footer footer'; 
 }
 
 nav {
