@@ -10,11 +10,13 @@ header{
   display: flex;
   background-color: grey;
   justify-content: space-between;
-  padding: 30px 10%;
+  padding: 1%;
 }
 
 .logo{
   cursor: pointer;
+  width: 5%;
+  height:5%;
 }
 
 li{
