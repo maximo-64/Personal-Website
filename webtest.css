@@ -8,7 +8,7 @@ li, a, button{
 
 header{
   font-wieght:bold;
-  font-family
+  font-family: nunito;
   display: flex;
   border-bottom: 2px solid darkgrey;
   justify-content: space-between;
