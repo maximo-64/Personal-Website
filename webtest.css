@@ -7,18 +7,16 @@ li, a, button{
 }
 
 header{
-  font-wieght:bold;
   font-family: nunito;
   display: flex;
   border-bottom: 2px solid darkgrey;
-  justify-content: space-between;
+  justify-content: start;
   flex-direction: row-reverse;
   grid-area: header;
 }
 
 .logo{
   min-width:30px;
-  align-self: center;
   cursor: pointer;
   width: 3%;
 }
@@ -33,8 +31,6 @@ li{
   color: black;
   padding: 0.5%;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px;
