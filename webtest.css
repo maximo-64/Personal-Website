@@ -28,13 +28,13 @@ li{
   padding: 0px 20px;
 }
 
-/*.newsletter{
+.newsletter{
   text-decoration: none;
   background-color: blue;
   padding: 10px;
   border-radius: 5px;
   
-}*/
+}
 
 .grid {
     grid-gap: 0.5em;
