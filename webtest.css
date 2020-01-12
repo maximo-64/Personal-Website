@@ -26,7 +26,7 @@ header{
   min-width:30px;
   cursor: pointer;
   width: 3%;
-  padding: 63%;
+  padding-left: 63%;
 }
 
 li{
