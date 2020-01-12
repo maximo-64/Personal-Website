@@ -10,7 +10,7 @@ header{
   font-family: nunito;
   display: flex;
   border-bottom: 2px solid darkgrey;
-  justify-content: start;
+  justify-content: space-evenly;
   flex-direction: row-reverse;
   grid-area: header;
 }
