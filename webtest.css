@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway:500&display=swap');
 
+article{
+    background: #bcbaff;
+    border-radius: 2em;
+    padding-bottom: 0.1%;
+}
+
 li, a, button{
   text-decoration: none;
   flex-direction: inline-block;
@@ -9,16 +15,18 @@ li, a, button{
 header{
   font-family: nunito;
   display: flex;
-  border-bottom: 2px solid darkgrey;
+  border-bottom: 4px solid darkgrey;
   justify-content: space-evenly;
   flex-direction: row-reverse;
   grid-area: header;
+  background: tomato;
 }
 
 .logo{
   min-width:30px;
   cursor: pointer;
   width: 3%;
+  padding: 63%;
 }
 
 li{
