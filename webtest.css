@@ -64,6 +64,7 @@ footer {
     border-top: 1px double black; 
     text-align: center;
     position: static;
+    grid-area: footer
 }
 
 body {
