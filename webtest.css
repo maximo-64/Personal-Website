@@ -2,14 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway:500&display=swap');
 
 article{
-    background: #bcbaff;
-    border-radius: 2em;
-    padding-bottom: 0.1%;
+    border-bottom: 2px dotted grey;
+    margin: 2%;
 }
 
 li, a, button{
   text-decoration: none;
-  color: ;
+  color: darkslategrey;
   display: inline-block;
 }
 
@@ -20,7 +19,6 @@ header{
   justify-content: space-between;
   flex-direction: row-reverse;
   grid-area: header;
-  background: tomato;
 }
 
 .logo{
@@ -43,10 +41,10 @@ header{
     grid-gap: 0.5em;
     display: grid;
     grid-template-areas: 
-        'header header' 
-        'main ads' 
-        'main ads'
-        'footer footer'; 
+        'header' 
+        'main' 
+        'main'
+        'footer'; 
 }
 
 nav {
@@ -60,12 +58,6 @@ main {
     text-align: center;
     grid-area: main;
     
-}
-
-.ads {
-    border: dashed;
-    text-align: center;
-    grid-area: ads;
 }
 
 footer {
