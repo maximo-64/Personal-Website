@@ -6,7 +6,7 @@ article{
     margin: 2%;
 }
 
-li, a, button{
+li, a{
   text-decoration: none;
   color: darkslategrey;
   display: inline-block;
@@ -15,7 +15,7 @@ li, a, button{
 header{
   font-family: nunito;
   display: flex;
-  border-bottom: 4px solid darkgrey;
+  border-bottom: 2px solid darkgrey;
   justify-content: space-between;
   flex-direction: row-reverse;
   grid-area: header;
@@ -49,8 +49,8 @@ header{
 
 nav {
     font-family: 'Nunito', sans-serif;
-    text-align: center;
     color: white;
+    width: -moz-available;
 }
 
 main {
@@ -58,6 +58,11 @@ main {
     text-align: center;
     grid-area: main;
     
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 footer {
