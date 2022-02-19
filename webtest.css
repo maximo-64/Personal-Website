@@ -36,6 +36,7 @@ li, a{
   text-decoration: none;
   color: darkslategrey;
   display: inline-block;
+  width: inherit;
 }
 
 header{
@@ -76,9 +77,7 @@ header{
 
 nav {
     font-family: 'Nunito', sans-serif;
-    color: white;
-    width: -webkit-fill-available;
-  align-content: stretch;
+    width: 100%;
 }
 
 main {
@@ -90,7 +89,7 @@ main {
 
 ul{
     display: flex;
-    justify-content: space-evenly;
+    width: -moz-available;
 }
 
 footer {
